@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<!--
+  Site Questions? 
+    Jon Goldstein <alwayslearnedstuff@gmail.com>
+  
+  CSS Framework: bulma.io
+--> 
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AODO Eye</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" id="bulma" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/custom.css" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar">
+        <div class="navbar-brand">
+          <a class="nav-item" href="http://aodoeye.org">
+            <h1 class="is-size-2"><strong>AODO </strong></h1>
+          </a>
+        </div>
+
+      <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+      <!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+<!--
+      <span class="nav-toggle">
+        <span></span>
+      <span></span>
+      <span></span>
+      </span>
+-->
+
+      <div class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="pages/2017.html">
+            2017 AODO Conference
+          </a>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link  is-active" href="#">
+                Past AODO Conferences
+              </a>
+            <div class="navbar-dropdown ">
+              <a class="navbar-item " href="#">
+                2016 - Chicago, IL 
+              </a>
+              <hr class="navbar-divider">
+              <a class="navbar-item " href="#">
+                2015 - Las Vegas, NV
+              </a>
+              <hr class="navbar-divider">
+              <a class="navbar-item " href="#">
+                2014 - Chicago, IL
+              </a>
+            </div>
+          </div>
+          
+          <a class="navbar-item" href="pages/membership.html">
+            AODO Membership
+          </a> 
+        </div>
+
+        <div class="navbar-end">
+          <a class="navbar-item" href="pages/contact.html">
+            Contact
+          </a>
+        </div>
+      </div>
+      
+    </nav>
+  </div>
+
+<section class="hero is-primary" id="index-hero">
+  <div class="hero-body" id="heroBackgroundImage">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column is-4">
+          <div class="card" id="index-card-left">
+            <div class="card-content">
+              <p class="title /*is-1*/"><span class="is-info">A</span>ssociation of</p>
+              <p class="title /*is-1*/">Ophthalmology</p>
+              <p class="title /*is-1*/">Development</p>
+              <p class="title /*is-1*/">Officers</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="column has-text-centered is-4 is-offset-4">
+          <a class="button is-info is-large" href="pages/2017.html">
+            2017 AODO Conference
+<!-- 
+            November 13-14, 2017
+            New Orleans, LA
+-->
+          </a>
+        </div>
+        
+      </div>
+
+      <div class="columns">
+        <div class="column has-text-centered">
+          <h2 class="title is-4">Strengthening Academic Eye Institutes through Philanthropy</h2>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!--
+  <div class="tile is-ancestor">
+    <div class="tile"></div>
+    <div class="tile is-12">
+      <article class="tile is-child notification is-info">
+        <p class="title has-text-centered">Can you see the children in this photo? </p>
+        <p class="subtitle has-text-centered">We are working hard for a future where every child can, too.</p>
+      </article>
+    </div>
+    <div class="tile"></div>
+  </div>
+-->
+
+  <section class="hero is-light">
+    <div class="hero-body">
+      <div class="container ">
+        <div class="columns is-vcentered">
+          <div class="column">
+            <div class="content">
+              <p class="has-text-centered title ">
+                Can you see the children in this photo?
+              </p>
+              <p class="has-text-centered subtitle">
+                We are working hard for a future where every child can, too.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero is-info">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column">
+            <h1 class="title has-text-centered">
+              Sign up for the Mailing List
+            </h1>
+            <div class="column">
+                <div class="field has-addons has-addons-centered">
+                  <div class="control has-icons-left">
+                    <input class="input is-medium" type="text" placeholder="Email">
+                        <span class="icon is-small is-left">
+                          <i class="fa fa-envelope"></i>
+                        </span>
+                  </div>
+                  <div class="control">
+                    <a class="button is-medium is-warning">
+                      Search
+                    </a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="hero is-info bsa">
+          <div class="card is-fullwidth">
+            <header class="card-header">
+              <p class="card-header-title">
+                About AODO
+              </p>
+              <!--a class="card-header-icon" href="#top">
+                <i class="fa fa-angle-up"></i>
+              </a-->
+            </header>
+
+            <div class="card-content">
+              <article class="media">
+                <div class="media-left">
+                  <!--figure class="image is-64x64">
+                    <img src="http://placehold.it/128x128" alt="Image">
+                  </figure-->
+                </div>
+                <div class="media-content">
+                  <div class="content">
+                    <p>
+                      <strong>AODO</strong> <!--small>@AODOeye</small-->
+                      <br /> The Association of Ophthalmology Development Officers is a network of development professionals affiliated with departments of ophthalmology and eye institutes at leading universities. Focused solely on the challenges and
+                      opportunities associated with academic ophthalmology development, AODO Members network informally throughout the year and hold an annual meeting during the AAO (American Academy of Ophthalmology) national meeting to exchange fundraising
+                      information, marketing strategies, professional knowledge, experience, and to collaborate on group-identified issues.
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <!--footer class="card-footer">
+              <a class="card-footer-item">Share on Facebook</a>
+              <a class="card-footer-item">Share on Twitter</a>
+              <a class="card-footer-item">Share on G+</a>
+            </footer-->
+          </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <p>
+          <a href="http://aodoeye.org"><strong>AODO </strong></a><i class="fa fa-copyright" aria-hidden="true"></i> 2017
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

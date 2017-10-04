@@ -1,0 +1,34 @@
+#heroBackgroundImage {
+  background: 
+  linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+  url("../assets/kids-butterfly.jpg");
+  		background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:  cover;
+/*			background-color: #000000;
+			opacity: .5;
+      filter: alpha(opacity=50); /* For IE8 and earlier */
+      z-index: 0;
+}
+
+
+
+#index-card-left {
+  background-color: white; 
+  border-radius: 4px;
+  color: black;
+  background: rgba(103, 180, 255, 0.5);  /* 50, 115, 220 */
+  z-index: 1;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.card-content .title {
+  margin-bottom: 5px;
+}
+
+#index-hero { 
+  background-color: #000000;
+}
